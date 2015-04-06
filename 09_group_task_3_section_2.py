@@ -198,7 +198,9 @@ df = pd.read_csv(root + 'data_section2.csv')
 qs = ques_list(srvy)
 
 # get dummies
-sel = [200, 300, 310, 405, 401]
+#sel = [200, 300, 310, 405, 401]
+
+sel = [200, 407, 408]
 dummies = dvt(srvy, sel)
 
 # run logit, optional dummies
